@@ -1,4 +1,4 @@
-# way2automation-ProtractorPractice-Website 
+# way2automation-Website 
 
 This document outlines the steps for adding two users on the User List Table on the http://www.way2automation.com/angularjs-protractor/webtables/ website.
 
