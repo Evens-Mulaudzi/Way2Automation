@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="CHROME TESTS">
+
+        <parameter name="way3automation" value="http://www.way2automation.com/angularjs-protractor/webtables/"/>
+        <parameter name="Browser" value="chrome"/>
+        <classes><class name="WebTest.AddUsers"><methods>
+            <include name="Apply"/>
+        </methods></class>
+        </classes></test>
+    <test verbose="2" preserve-order="true" name="FIREFOX TESTS">
+
+        <parameter name="way3automation" value="http://www.way2automation.com/angularjs-protractor/webtables/"/>
+        <parameter name="Browser" value="firefox"/>
+        <classes><class name="WebTest.AddUsers"><methods>
+            <include name="Apply"/>
+        </methods></class>
+        </classes></test>
+
+    <test verbose="2" preserve-order="true" name="IE TESTS">
+
+        <parameter name="way3automation" value="http://www.way2automation.com/angularjs-protractor/webtables/"/>
+        <parameter name="Browser" value="MICROSOFT EDGE"/>
+        <classes><class name="WebTest.AddUsers"><methods>
+            <include name="Apply"/>
+        </methods></class>
+        </classes></test>
+
+
+</suite>
